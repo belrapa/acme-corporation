@@ -2,49 +2,49 @@
   xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Acme Corporation</title>
-    <link>http://example.org/</link>
+    <link>/acme/</link>
     <description>Recent content on Acme Corporation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <managingEditor>contact@example.org (Acme Corporation)</managingEditor>
     <webMaster>contact@example.org (Acme Corporation)</webMaster>
     
-        <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/acme/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
 <title></title>
-<link>http://example.org/about/</link>
+<link>/acme/about/</link>
 <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>contact@example.org (Acme Corporation)</author>
-      <guid>http://example.org/about/</guid>
+      <guid>/acme/about/</guid>
 <description></description>
 <category></category></item>
     
     <item>
 <title></title>
-<link>http://example.org/blog/mypost/</link>
+<link>/acme/blog/mypost/</link>
 <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>contact@example.org (Acme Corporation)</author>
-      <guid>http://example.org/blog/mypost/</guid>
+      <guid>/acme/blog/mypost/</guid>
 <description></description>
 <category></category></item>
     
     <item>
 <title></title>
-<link>http://example.org/contacto/</link>
+<link>/acme/contacto/</link>
 <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>contact@example.org (Acme Corporation)</author>
-      <guid>http://example.org/contacto/</guid>
+      <guid>/acme/contacto/</guid>
 <description></description>
 <category></category></item>
     
     <item>
 <title></title>
-<link>http://example.org/viajes/</link>
+<link>/acme/viajes/</link>
 <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>contact@example.org (Acme Corporation)</author>
-      <guid>http://example.org/viajes/</guid>
+      <guid>/acme/viajes/</guid>
 <description></description>
 <category></category></item>
     

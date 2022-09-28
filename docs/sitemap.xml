@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/about/</loc>
+    <loc>/acme/about/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>http://example.org/blog/mypost/</loc>
+    <loc>/acme/blog/mypost/</loc>
   </url><url>
-    <loc>http://example.org/contacto/</loc>
+    <loc>/acme/contacto/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>http://example.org/viajes/</loc>
+    <loc>/acme/viajes/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>/acme/</loc>
   </url><url>
-    <loc>http://example.org/blog/</loc>
+    <loc>/acme/blog/</loc>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>/acme/categories/</loc>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>/acme/tags/</loc>
   </url>
 </urlset>
