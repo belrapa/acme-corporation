@@ -1,4 +1,4 @@
-baseURL: "/acme"
+baseURL: "http://ejemplo.com"
 languageCode: es-es
 title: Acme Corporation
 theme: Eclectic
