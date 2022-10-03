@@ -1,7 +1,7 @@
 baseURL: "http://ejemplo.com"
 languageCode: es-es
 title: Acme Corporation
-theme: Eclectic
+theme: basico
 author: 
   facebook: "https://facebook.com/example" 
   twitter: "https://twitter.com/example" 
@@ -13,6 +13,11 @@ author:
 
 menu:
   main: 
+    - identifier: tv
+      name: Canales 
+      url: /television/canales
+      pageRef: tv
+      weight: 200
     - identifier: curriculum
       name: Curriculum 
       url: /curriculum

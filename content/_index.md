@@ -6,4 +6,3 @@ draft: false
 
 ## BENVENUTTO A ACME
 
-![alt text](https://cloudfront-us-east-1.images.arcpublishing.com/infobae/R534LQL67JFNZDO4EPSTR5WIUU.png)
