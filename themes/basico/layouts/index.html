@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+
+
+<ul>
+    {{ range .Site.Menus.main }}
+     <li>
+      {{ .Name }} {{ .URL  }} 
+     </li>
+    {{ end }}
+   </ul>
+
+<div class="container">
+    <h1 class="text-center"> {{ .Title }}</h1>
+    <h3 style="color:blue"> {{ .Params.subtitulo }}</h3>
+    {{ .Content }}
+    <h2>Saludos desde {{ .Params.ciudad }}</h2>
+</div>
+{{ end }}

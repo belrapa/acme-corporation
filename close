@@ -1,0 +1,316 @@
+[33mtag v1[m
+Tagger: Pablo <parabel97@gmail.com>
+Date:   Wed Sep 28 12:53:05 2022 +0200
+
+mi version
+
+[33mcommit 220f0e2637e5461e4b05fcf9156fb0ee6fa6bbc3[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;33mtag: v1[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Pablo <parabel97@gmail.com>
+Date:   Wed Sep 28 12:47:22 2022 +0200
+
+    Datos guardados1
+
+[1mdiff --git a/config.yaml b/config.yaml[m
+[1mindex ea7a1f6..098c9ee 100644[m
+[1m--- a/config.yaml[m
+[1m+++ b/config.yaml[m
+[36m@@ -13,9 +13,17 @@[m [mauthor:[m
+ [m
+ menu:[m
+   main: [m
+[32m+[m[32m    - identifier: curriculum[m
+[32m+[m[32m      name: Curriculum[m[41m [m
+[32m+[m[32m      url: /curriculum[m
+[32m+[m[32m      weight: 200[m
+     - identifier: viajes[m
+       name: Viajes [m
+[31m-      url: /viajes [m
+[32m+[m[32m      url: /viajes[m
+[32m+[m[32m      weight: 200[m
+[32m+[m[32m    - identifier: Blog[m
+[32m+[m[32m      name: Blog[m[41m [m
+[32m+[m[32m      url: /Blog[m
+       weight: 200[m
+     - identifier: about [m
+       name: Acerca de [m
+[1mdiff --git a/content/_index.md b/content/_index.md[m
+[1mindex e69de29..ef9012e 100644[m
+[1m--- a/content/_index.md[m
+[1m+++ b/content/_index.md[m
+[36m@@ -0,0 +1,9 @@[m
+[32m+[m[32m---[m
+[32m+[m[32mtitle: "ACME"[m
+[32m+[m[32mdate: 2022-09-28T12:14:08+02:00[m
+[32m+[m[32mdraft: false[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m## BENVENUTTO A ACME[m
+[32m+[m
+[32m+[m[32m![alt text](https://cloudfront-us-east-1.images.arcpublishing.com/infobae/R534LQL67JFNZDO4EPSTR5WIUU.png)[m
+\ No newline at end of file[m
+[1mdiff --git a/content/about.md b/content/about.md[m
+[1mindex 1bb1daa..8938d3b 100644[m
+[1m--- a/content/about.md[m
+[1m+++ b/content/about.md[m
+[36m@@ -1,96 +1,6 @@[m
+[31m-There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.[m
+[32m+[m[32m---[m
+[32m+[m[32mtitle: "About"[m
+[32m+[m[32mdate: 2022-09-28T10:41:54+02:00[m
+[32m+[m[32mdraft: true[m
+[32m+[m[32m---[m
+ [m
+[31m-90’s four loko seitan photo booth gochujang freegan tumeric listicle fam ugh humblebrag. Bespoke leggings gastropub, biodiesel brunch pug fashion axe meh swag art party neutra deep v chia. Enamel pin fanny pack knausgaard tofu, artisan cronut hammock meditation occupy master cleanse chartreuse lumbersexual. Kombucha kogi viral truffaut synth distillery single-origin coffee ugh slow-carb marfa selfies. Pitchfork schlitz semiotics fanny pack, ugh artisan vegan vaporware hexagon. Polaroid fixie post-ironic venmo wolf ramps **kale chips**.[m
+[31m-[m
+[31m->There should be no margin above this first sentence.[m
+[31m-[m
+[31m->Blockquotes should be a lighter gray with a border along the left side in the secondary color.[m
+[31m-[m
+[31m->There should be no margin below this final sentence.[m
+[31m-[m
+[31m-## First Header 2[m
+[31m-This is a normal paragraph following a header. Knausgaard kale chips snackwave microdosing cronut copper mug swag synth bitters letterpress glossier **craft beer**. Mumblecore bushwick authentic gochujang vegan chambray meditation jean shorts irony. Viral farm-to-table kale chips, pork belly palo santo distillery activated charcoal aesthetic jianbing air plant woke lomo VHS organic. Tattooed locavore succulents heirloom, small batch sriracha echo park DIY af. Shaman you probably haven’t heard of them copper mug, crucifix green juice vape single-origin coffee brunch actually. Mustache etsy vexillologist raclette authentic fam. Tousled beard humblebrag asymmetrical. I love turkey, I love my job, I love my friends, I love Chardonnay![m
+[31m-[m
+[31m-Deae legum paulatimque terra, non vos mutata tacet: dic. Vocant docuique me plumas fila quin afuerunt copia haec o neque.[m
+[31m-[m
+[31m-On big screens, paragraphs and headings should not take up the full container width, but we want tables, code blocks and similar to take the full width.[m
+[31m-[m
+[31m-Scenester tumeric pickled, authentic crucifix post-ironic fam freegan VHS pork belly 8-bit yuccie PBR&B. **I love this life we live in**.[m
+[31m-[m
+[31m-## Second Header 2[m
+[31m->This is a blockquote following a header. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.[m
+[31m-[m
+[31m-### Header 3[m
+[31m-This is a code block following a header.[m
+[31m-Next level leggings before they sold out, PBR&B church-key shaman echo park. Kale chips occupy godard whatever pop-up freegan pork belly selfies. Gastropub Belinda subway tile woke post-ironic seitan. Shabby chic man bun semiotics vape, chia messenger bag plaid cardigan.[m
+[31m-[m
+[31m-#### Header 4[m
+[31m-This is an unordered list following a header.[m
+[31m-This is an unordered list following a header.[m
+[31m-This is an unordered list following a header.[m
+[31m-##### Header 5[m
+[31m-This is an ordered list following a header.[m
+[31m-This is an ordered list following a header.[m
+[31m-This is an ordered list following a header.[m
+[31m-Header 6[m
+[31m-What	Follows[m
+[31m-A table	A header[m
+[31m-A table	A header[m
+[31m-A table	A header[m
+[31m-There’s a horizontal rule above and below this.[m
+[31m-[m
+[31m-Here is an unordered list:[m
+[31m-[m
+[31m-Liverpool F.C.[m
+[31m-Chelsea F.C.[m
+[31m-Manchester United F.C.[m
+[31m-And an ordered list:[m
+[31m-[m
+[31m-Michael Brecker[m
+[31m-Seamus Blake[m
+[31m-Branford Marsalis[m
+[31m-And an unordered task list:[m
+[31m-[m
+[31m- Create a Hugo theme[m
+[31m- Add task lists to it[m
+[31m- Take a vacation[m
+[31m-And a “mixed” task list:[m
+[31m-[m
+[31m- Pack bags[m
+[31m-?[m
+[31m- Travel![m
+[31m-And a nested list:[m
+[31m-[m
+[31m-Jackson 5[m
+[31m-Michael[m
+[31m-Tito[m
+[31m-Jackie[m
+[31m-Marlon[m
+[31m-Jermaine[m
+[31m-TMNT[m
+[31m-Leonardo[m
+[31m-Michelangelo[m
+[31m-Donatello[m
+[31m-Raphael[m
+[31m-Definition lists can be used with Markdown syntax. Definition headers are bold.[m
+[31m-[m
+[31m-Name[m
+[31m-Godzilla[m
+[31m-Born[m
+[31m-1952[m
+[31m-Birthplace[m
+[31m-Japan[m
+[31m-Color[m
+[31m-Green[m
+[31m-Tables should have bold headings and alternating shaded rows.[m
+[31m-[m
+[31m-Artist	Album	Year[m
+[31m-Michael Jackson	Thriller	1982[m
+[31m-Prince	Purple Rain	1984[m
+[31m-Beastie Boys	License to Ill	1986[m
+[31m-If a table is too wide, it should scroll horizontally.[m
+[31m-[m
+[31m-Artist	Album	Year	Label	Awards	Songs[m
+[31m-Michael Jackson	Thriller	1982	Epic Records	Grammy Award for Album of the Year, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&B Album, Brit Award for Best Selling Album, Grammy Award for Best Engineered Album, Non-Classical	Wanna Be Startin’ Somethin’, Baby Be Mine, The Girl Is Mine, Thriller, Beat It, Billie Jean, Human Nature, P.Y.T. (Pretty Young Thing), The Lady in My Life[m
+[31m-Prince	Purple Rain	1984	Warner Brothers Records	Grammy Award for Best Score Soundtrack for Visual Media, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&B Album, Brit Award for Best Soundtrack/Cast Recording, Grammy Award for Best Rock Performance by a Duo or Group with Vocal	Let’s Go Crazy, Take Me With U, The Beautiful Ones, Computer Blue, Darling Nikki, When Doves Cry, I Would Die 4 U, Baby I’m a Star, Purple Rain[m
+[31m-Beastie Boys	License to Ill	1986	Mercury Records	noawardsbutthistablecelliswide	Rhymin & Stealin, The New Style, She’s Crafty, Posse in Effect, Slow Ride, Girls, (You Gotta) Fight for Your Right, No Sleep Till Brooklyn, Paul Revere, Hold It Now, Hit It, Brass Monkey, Slow and Low, Time to Get Ill[m
+[1mdiff --git a/content/blog/entrada1.md b/content/blog/entrada1.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..969b905[m
+[1m--- /dev/null[m
+[1m+++ b/content/blog/entrada1.md[m
+[36m@@ -0,0 +1,11 @@[m
+[32m+[m[32m---[m
+[32m+[m[32mtitle: "Torneos importantes en Tenis"[m
+[32m+[m[32mdate: 2022-09-28T12:13:23+02:00[m
+[32m+[m[32mdraft: false[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m## GRAND SLAM[m
+[32m+[m
+[32m+[m[32mLos Grand Slam de tenis están constituido por los cuatro torneos oficiales mayores del circuito internacional organizados por la Federación Internacional de Tenis (ITF). Son los siguientes: Abierto de Australia: dura o cemento. Roland Garros: polvo de ladrillo, tierra batida o arcilla. Wimbledon: césped, hierba o pasto. Abierton de Estados Unidos: dura o cemento.[m
+[32m+[m
+[32m+[m[32m![alt text](http://www.siguetuliga.com/articulos/wp-content/uploads/2019/02/4-898-20140925-071546.jpg)[m
+\ No newline at end of file[m
+[1mdiff --git a/content/blog/entrada2.md b/content/blog/entrada2.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..044108a[m
+[1m--- /dev/null[m
+[1m+++ b/content/blog/entrada2.md[m
+[36m@@ -0,0 +1,12 @@[m
+[32m+[m[32m---[m
+[32m+[m[32mtitle: "Jugadores acrobatas"[m
+[32m+[m[32mdate: 2022-09-28T12:14:02+02:00[m
+[32m+[m[32mdraft: false[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m## DUSTIN BROWN[m
+[32m+[m
+[32m+[m[32mDustin Brown (Celle, Alemania, 8 de diciembre de 1984) es un jugador profesional de tenis alemán de ascendencia jamaicana.[m
+[32m+[m[32mTiene un juego potente con su reves a una mano, y a su vez tienen unos detalles acrobaticos a la hora de dar algunos golpes que parecen imposibles.[m
+[32m+[m
+[32m+[m[32m![alt text](https://canaltenis.com/wp-content/uploads/2020/07/dus.jpg)[m
+\ No newline at end of file[m
+[1mdiff --git a/content/blog/entrada3.md b/content/blog/entrada3.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..50b3642[m
+[1m--- /dev/null[m
+[1m+++ b/content/blog/entrada3.md[m
+[36m@@ -0,0 +1,11 @@[m
+[32m+[m[32m---[m
+[32m+[m[32mtitle: "Curiosidades del Tenis"[m
+[32m+[m[32mdate: 2022-09-28T12:14:08+02:00[m
+[32m+[m[32mdraft: false[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m## WIMBLENDON[m
+[32m+[m
+[32m+[m[32mEn Wimblendon tienen un codigo de vestimenta, donde todos los tenistas, ya sean hombre o mujer, tienen que ir vestidos a la hora de jugar con un vestuario de color blanco, en su totalidad.[m
+[32m+[m
+[32m+[m[32m![alt text](https://okdiario.com/img/2022/06/25/murray-655x368.jpg)[m
+\ No newline at end of file[m
+[1mdiff --git a/content/blog/mypost.md b/content/blog/mypost.md[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/content/contacto.md b/content/contacto.md[m
+[1mindex e69de29..5442def 100644[m
+[1m--- a/content/contacto.md[m
+[1m+++ b/content/contacto.md[m
+[36m@@ -0,0 +1,9 @@[m
+[32m+[m[32m---[m
+[32m+[m[32mtitle: "Contacto"[m
+[32m+[m[32mdate: 2022-09-28T10:38:47+02:00[m
+[32m+[m[32mdraft: true[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m## Datos del contacto[m
+[32m+[m
+[32m+[m[32m{{< losenlaces >}}[m
+[1mdiff --git a/content/curriculum.md b/content/curriculum.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f2f5e83[m
+[1m--- /dev/null[m
+[1m+++ b/content/curriculum.md[m
+[36m@@ -0,0 +1,11 @@[m
+[32m+[m[32m---[m
+[32m+[m[32mtitle: "Curriculum"[m
+[32m+[m[32mdate: 2022-09-28T12:38:01+02:00[m
+[32m+[m[32mdraft: true[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m## Este soy yo[m
+[32m+[m
+[32m+[m[32mMe llamo Pablo, y soy estudiante de segundo año de DAW, en CPIFP Los Enlaces, en Zaragoza.[m
+[32m+[m
+[32m+[m[32m![alt text](https://www.losenlaces.tv/assets/channel/images/default_logo.png)[m
+\ No newline at end of file[m
+[1mdiff --git a/content/viajes/italia.md b/content/viajes/italia.md[m
+[1mindex 05ebc8b..cec1bd9 100644[m
+[1m--- a/content/viajes/italia.md[m
+[1m+++ b/content/viajes/italia.md[m
+[36m@@ -1,6 +1,13 @@[m
+ ---[m
+ title: "Italia"[m
+ date: 2022-09-28T10:09:05+02:00[m
+[31m-draft: true[m
+[32m+[m[32mdraft: false[m
+ ---[m
+ [m
+[32m+[m[32m## Importanti[m
+[32m+[m
+[32m+[m[32m### Castillo de Sant'Angelo:[m
+[32m+[m[32mEl Castillo de Sant'Angelo es un monumento de Roma, situado en la orilla derecha del Tíber, frente al Pons Aelius, a poca distancia del Vaticano, entre el rione de Borgo y el de Prati. Está unido a la Ciudad del Vaticano a través del pasillo fortificado denominado Passetto.[m
+[32m+[m
+[32m+[m
+[32m+[m[32m![alt text](https://blog-italia.com/wp-content/uploads/2017/02/castel_san_angelo_roma.jpg)[m
+\ No newline at end of file[m
+[1mdiff --git a/content/viajes/pirineos.md b/content/viajes/pirineos.md[m
+[1mindex 28a7072..0dec871 100644[m
+[1m--- a/content/viajes/pirineos.md[m
+[1m+++ b/content/viajes/pirineos.md[m
+[36m@@ -1,6 +1,11 @@[m
+ ---[m
+ title: "Pirineos"[m
+ date: 2022-09-28T10:09:58+02:00[m
+[31m-draft: true[m
+[32m+[m[32mdraft: false[m
+ ---[m
+ [m
+[32m+[m[32m## Los Pirineos en su totalidad[m
+[32m+[m
+[32m+[m[32mLa cordillera de los Pirineos es todo un bastión, una frontera natural, que se yergue majestuosa al borde norte de la Península Ibérica, entre España, Andorra y Francia, atravesando en algo más de 400 km desde el mar Cantábrico (Golfo de Vizcaya) al Oeste hasta el mar Mediterráneo (Cabo de Creus) al Este.[m
+[32m+[m
+[32m+[m[32m![alt text](https://veggierunners.es/wp-content/uploads/2015/07/gr11-1600x1200.jpg)[m
+\ No newline at end of file[m
+[1mdiff --git a/content/viajes/portugal.md b/content/viajes/portugal.md[m
+[1mindex 998c5b5..11d43c9 100644[m
+[1m--- a/content/viajes/portugal.md[m
+[1m+++ b/content/viajes/portugal.md[m
+[36m@@ -1,6 +1,11 @@[m
+ ---[m
+ title: "Portugal"[m
+ date: 2022-09-28T10:14:26+02:00[m
+[31m-draft: true[m
+[32m+[m[32mdraft: false[m
+ ---[m
+ [m
+[32m+[m[32m## Interesante[m
+[32m+[m
+[32m+[m[32mLa Capela dos Ossos (Capilla de los Huesos) es una fascinante capilla con un secreto bastante macabro. Uno de los lugares más visiatdos de Evora, esta fantasmagórica atracción turista no es para las personas de corazón sensoible. esta pequeña y discreta capilla es en realidad el lugar de descanso final de cientos de cadávere, todos ellos exhumados de los cementerios de la ciudad durante el siglo XVI.[m
+[32m+[m
+[32m+[m[32m![alt text](https://myportugalholiday.com/images/evora/evora-bone-chapel.jpg)[m
+\ No newline at end of file[m
+[1mdiff --git a/layouts/shortcodes/losenlaces.html b/layouts/shortcodes/losenlaces.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a03c76d[m
+[1m--- /dev/null[m
+[1m+++ b/layouts/shortcodes/losenlaces.html[m
+[36m@@ -0,0 +1,7 @@[m
+[32m+[m[32m<div>[m
+[32m+[m[32m    <iframe[m
+[32m+[m[32m        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2981.5082870297556!2d-0.9253784846055825!3d41.644758779241435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd596b22f6b9f321%3A0xd6fc91a106797562!2sCPIFP%20Los%20Enlaces!5e0!3m2!1ses!2ses!4v1664355417910!5m2!1ses!2ses"[m
+[32m+[m[32m        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"[m
+[32m+[m[32m        referrerpolicy="no-referrer-when-downgrade"></iframe>[m
+[32m+[m
+[32m+[m[32m</div>[m
+\ No newline at end of file[m
